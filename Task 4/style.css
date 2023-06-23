@@ -122,3 +122,35 @@ nav{
     text-align: center;
     margin: 30px;
 }
+
+/* plans */
+
+.plans{
+    display: flex;
+}
+
+.category{
+    width: 33%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.category h1{
+    font-weight: bold;
+    color: #003E5B;
+}
+
+.category h2{
+    font-weight: bold;
+    color: #003E5B;
+}
+
+.category p{
+    margin: 20px;
+}
+
+.category a{
+    text-decoration: none;
+}
