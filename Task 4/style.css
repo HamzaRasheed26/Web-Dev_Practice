@@ -91,3 +91,34 @@ nav{
     font-weight: bold;
     margin-top: 30px;
 }
+
+/* courses */
+
+.line {
+    display: flex;
+}
+
+.course{
+    width: 33%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F7F7F7;
+    display: flex;
+}
+
+.course img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.course h1{
+    text-align: center;
+    font-weight: bold;
+    color: #003E5B;
+}
+
+.course p{
+    text-align: center;
+    margin: 30px;
+}
