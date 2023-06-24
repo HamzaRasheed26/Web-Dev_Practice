@@ -74,8 +74,33 @@
 }
 
 .intro-text p{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 30px;
     margin-right: 50px;
     line-height: 25px;
+}
+
+/* about-me */
+
+.about-me{
+    color: white;
+}
+
+.about-me img{
+    width: 50%;
+    float: left;
+}
+
+.about-text{
+    float: right;
+    width: 50%;
+}
+
+.about-text h1{
+    font-size: 40px;
+
+}
+
+.about-text p{
+    font-size: 20px;
 }
