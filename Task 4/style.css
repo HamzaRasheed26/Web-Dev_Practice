@@ -57,6 +57,7 @@ nav{
     height: 100%;
     padding: 0px;
     margin: 0px;
+    background-repeat: no-repeat;
 }
 
 .banner h2{
