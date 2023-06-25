@@ -1,4 +1,4 @@
-* {
+body {
     background-color: #100E17;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,6 +38,7 @@
     height: 100vh;
     color: white;
     padding-top: 100px;
+    clear: both;
 }
 
 .intro-text{
@@ -84,23 +85,191 @@
 
 .about-me{
     color: white;
+    clear: both;
+    display: flex;
 }
 
 .about-me img{
-    width: 50%;
-    float: left;
+    width: 550px;
+    float: left; 
+    padding: 0px 60px;
 }
+
+
 
 .about-text{
     float: right;
     width: 50%;
+    padding: 0px 40px;
 }
 
 .about-text h1{
     font-size: 40px;
-
 }
 
 .about-text p{
     font-size: 20px;
+}
+
+.download{
+    width: 230px;
+    padding-top: 5px;
+}
+
+.download h2{
+    text-align: center;
+    background-color: #0BBBA0;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* work */
+
+.work {
+    color: white;
+    margin: 30px;
+}
+
+.t1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.work-card {
+    background-color: #1E1E25;
+    padding: 0px 20px; 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-card h1{
+    font-size: 38px;
+    background-color: #1E1E25;
+    text-align: left;
+}
+
+.work-card p{
+    background-color: #1E1E25;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.work div{
+    display: flex;
+}
+
+/* skills */
+.skills{
+    color: white;
+}
+
+.skill-part{
+    display: flex;
+}
+
+.part{
+    width: 50%;
+    margin: 50px;
+}
+
+.text{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    font-weight: bold;
+}
+
+.right{
+    width: 50%;
+    text-align: right;
+}
+
+.bar{
+    width: 100%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #737276;
+}
+
+.bar-fill1{
+    width: 86%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #0BBBA0;
+}
+
+.bar-fill2{
+    width: 46%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #0BBBA0;
+}
+
+.bar-fill3{
+    width: 70%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #0BBBA0;
+}
+
+.bar-fill4{
+    width: 17%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #0BBBA0;
+}
+
+.bar-fill5{
+    width: 80%; 
+    height: 8px;
+    border-radius: 30px;
+    background-color: #0BBBA0;
+}
+
+/* education and experience */
+
+.edu-exp {
+    display: flex;
+}
+
+.edu{
+    width: 50%;
+}
+
+.exp{
+    width: 50%;
+}
+
+.edu-card{
+    background-color: #1E1E25;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.edu-card h2{
+    margin: 0px;
+    color: #CFCFD0;
+}
+
+.edu-card h2 span{
+    font-style: italic;
+    color: #0BBBA0;
+}
+
+.edu-card h3{
+    color: #0BBBA0;
+    font-weight: normal;
+}
+
+.edu-card p{
+    font-size: 22px;
+    font-weight: normal;
 }
