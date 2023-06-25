@@ -7,24 +7,31 @@
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href=""><h2>Home</h2></a>
-        </li>
-        <li>
-          <a href=""><h2>About</h2></a>
-        </li>
-        <li>
-          <a href=""><h2>Skills</h2></a>
-        </li>
-        <li>
-          <a href=""><h2>Experience</h2></a>
-        </li>
-        <li>
-          <a href=""><h2>Contact</h2></a>
-        </li>
-      </ul>
+    <nav >
+      <div class="menu-bars">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href=""><h2>Home</h2></a>
+          </li>
+          <li>
+            <a href=""><h2>About</h2></a>
+          </li>
+          <li>
+            <a href=""><h2>Skills</h2></a>
+          </li>
+          <li>
+            <a href=""><h2>Experience</h2></a>
+          </li>
+          <li>
+            <a href=""><h2>Contact</h2></a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- intro -->
@@ -67,7 +74,7 @@
     <!-- what i do -->
     <div class="work">
       <h1 class="t1">What I do</h1>
-      <div>
+      <div class="work-line">
         <div class="work-Card">
           <h1>UI Design</h1>
           <p>
@@ -194,9 +201,38 @@
     <div class="contact">
 
       <div class="contact-card">
-        <img src="images/" alt="">
+        <a href=""><img src="images/image 6.png" alt="Address"></a>
+        <h2>Address</h2>
+        <p>GT Road Lahore</p>
       </div>
 
+      <div class="contact-card">
+        <a href=""><img src="images/image 7.png" alt="Email"></a>
+        <h2>Email</h2>
+        <p>yourmail@gmail.com</p>
+      </div>
+
+      <div class="contact-card">
+        <a href=""><img src="images/image 6.png" alt="Contact"></a>
+        <h2>Contact</h2>
+        <p>880 (6743) 344</p>
+      </div>
+
+    </div>
+
+    <!-- contact form -->
+    <div class="contact-form">
+      <form action="" >
+        <input class="firstname" type="text" placeholder="Firstname">
+        <input type="text" class="lastname" placeholder="Lastname">
+        <br>
+        <input type="text" class="email" placeholder="Email">
+        <br>
+        <textarea placeholder="Message" name="" id="" cols="30" rows="5" class="message"></textarea>
+        <br>
+        <!-- <input type="button" class="sendbtn" value="Send a Message"> -->
+        <button class="sendbtn" >Send a Message</button>
+      </form>
     </div>
   </body>
 </html>
