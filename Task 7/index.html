@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <center>
+      <h1>UET Lahore</h1>
+      <h2>Registration Form</h2>
+      <div>
+        <form action="">
+          <label for="">Name:</label>
+          <input type="text" id="name" placeholder="Full Name" required />
+          <br />
+
+          <label for="">Roll No:</label>
+          <input type="text" id="roll-no" placeholder="Roll No" required />
+          <br />
+
+          <label for="">Matric Marks:</label>
+          <input
+            type="number"
+            name="matric"
+            id="matric"
+            required
+            placeholder="Out of 1100"
+          />
+          <br />
+
+          <label for="">FSC Marks:</label>
+          <input
+            type="number"
+            name="fsc"
+            id="fsc"
+            required
+            placeholder="Out of 1100"
+          />
+          <br />
+
+          <label for="">Entry Test Marks:</label>
+          <input
+            type="number"
+            name="entry"
+            id="entry"
+            required
+            placeholder="Out of 400"
+          />
+          <br />
+
+          <input id="btn" type="button" value="Submit" onclick="calculate()" />
+        </form>
+      </div>
+
+      <h2 id="std"></h2>
+      <h3 id="agr"></h3>
+    </center>
+
+    <script src="index.js"></script>
+  </body>
+</html>
