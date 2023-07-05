@@ -1,3 +1,6 @@
+let agr = [];
+let stdNames = [];
+
 function calculate() {
   //preventDefault();
 
@@ -6,7 +9,6 @@ function calculate() {
   const fsc = parseInt(document.getElementById("fsc").value);
   const entry = parseInt(document.getElementById("entry").value);
 
-  const agr = (matric + fsc + entry) / 100;
   // Calculate the aggregate
   var aggregate =
     0.2 * ((matric / 1100) * 100) +
@@ -22,4 +24,10 @@ function calculate() {
   } else {
     window.alert("You are not eligible for admission.");
   }
+
+  // storing in local storage
+  stdNames.push(name);
+  agr.push(aggregate);
+  localStorage.setItem("names", JSON.stringify(stdNames));
+  localStorage.setItem("aggregates", JSON.stringify(agr));
 }
