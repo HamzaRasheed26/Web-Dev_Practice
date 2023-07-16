@@ -4,7 +4,9 @@ export default function Form() {
     const [color, setColor] = useState("#555555");
 
     const ChangeColor = () => {
-        setColor("green");
+        let colorPicker = document.querySelector(".colorPicker");
+        let color = colorPicker.value;
+        setColor(color);
     };
 
   return (
