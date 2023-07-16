@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Switch, Routes } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import Form from "./Components/form";
 
 function App() {
   return (
     <div className="App">
-      <Switch></Switch>
+      <Switch>
+        <Route exact path="/" component={Form} />
+      </Switch>
     </div>
   );
 }
